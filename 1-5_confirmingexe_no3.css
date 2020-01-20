@@ -1,0 +1,30 @@
+/*要件】
+　　　1. <header>タグ、<h1タグ>、<nav>タグ、<ol>タグ、<li>タグを用いる
+　　　　<header>タグの中に<h1>タグと<nav>タグがあり、<nav>タグの中に<ol>タグ、
+　　　　<ol>タグの中に<li>タグが4つある構成にする
+　　　2. <h1>タグの中身は、 EXAMPLE とする
+　　　3. <li>タグの中身は、それぞれMENU1、MENU2、MENU3、MENU4 とする
+　　　4. class名は、それぞれ"headline"、"nav"、"list"、"list-item"とする
+　　　5. headerのwidth（横幅）は、10％にする
+　　　6. headlineのfont-size（文字の大きさ）は、22pxにする
+　　　7. nav内の文字を中央寄せ（text-align）にする
+　　　8.class、"list"にはcssでpadding-left:40px;を適用させる。
+ ※リセットCSSの適用でブラウザがデフォルトで持っているcssを打ち消したことでolの番号が表示される領域が消えてしまったことを補うため。*/
+ *{
+ 	margin: 0;
+ 	padding: 0;
+ 	box-sizing: border-box;
+ }
+
+header{
+	width: 10%;
+}
+header .headline{
+	font-size: 22px;
+}
+.nav{
+	text-align: center;
+}
+.list{
+	padding-left: 40px;
+}

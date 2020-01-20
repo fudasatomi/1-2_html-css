@@ -30,17 +30,16 @@ nav{
 .main{
 	padding: 50px 0;
 }
-
+.clearfix::after{
+	content: "";
+	display: block;
+	clear: both;
+}
 .main-box{
 	width: 800px;
 	height: 600px;
 	background-color: gray;
 	margin: 0 auto;
-}
-.upper-section{
-	width: 800PX;
-	height: 200PX;
-	background-color: green;
 }
 	.box1{
 		width: 200px;
@@ -66,12 +65,6 @@ nav{
 		background-color: #93ffab;
 		float: left;
 	}
-
-.middle-section{
-	width: 800PX;
-	height: 200PX;
-	background-color: yellow;
-}
 	.box5{
 		width: 200px;
 		height: 200px;
@@ -96,11 +89,6 @@ nav{
 		background-color: #e4ff8d;
 		float: left;
 	}
-.lower-section{
-	width: 800PX;
-	height: 200PX;
-	background-color: blue;
-}
 	.box9{
 		width: 200px;
 		height: 200px;

@@ -1,0 +1,28 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.main-contents{
+	margin: 50px auto;
+	width: 960px;
+}
+.step-contents{
+	width: 300px;
+	border: 1px solid #c3c3c3;
+	padding: 10px;
+	position: relative;
+}
+.step-contents h4{
+	position: absolute;
+	top: 0;
+	left: 0;
+	color: white;
+	background: orange;
+	line-height: 1.8;
+	padding: 0 5px;
+}
+.step-image{
+	width: 280px;
+}
+

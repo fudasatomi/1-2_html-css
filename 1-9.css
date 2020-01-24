@@ -12,7 +12,12 @@
 	border: 1px solid #c3c3c3;
 	padding: 10px;
 	position: relative;
+	float: left;
 }
+.step-contents:nth-child(2),.step-contents:nth-child(3){
+	margin-left: 30px;
+}
+
 .step-contents h4{
 	position: absolute;
 	top: 0;

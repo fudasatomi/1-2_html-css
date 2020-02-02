@@ -1,0 +1,48 @@
+.box1{
+	width: 300px;
+	height: 300px;
+	background-color: #c0c0c0;
+	padding: 10px;
+}
+.box2{
+	width: 100px;
+	height: 100px;
+	background-color: #40e0d0;
+	/*指定方法（box2の周囲すべてに枠線を指定する場合）*/
+	border: solid 5px #00ff00;
+}
+.box3{
+	width: 30px;
+	height: 30px;
+	background-color: #3cb371;
+	margin: 20px 20px;
+	border: dashed white;
+}
+.box4{
+	width: 100px;
+	height: 100px;
+	background-color: #ba70d6;
+	border: 5px dotted #ff6347;
+	margin-top: 10px;
+}
+.box5{
+	width: 30px;
+	height: 30px;
+	background-color: #ffc0cb;
+	margin: 20px 20px;
+	border: dashed white;
+}
+.box6{
+	width: 100px;
+	height: 100px;
+	background-color: #cd5c6c;
+	border: 5px double #9370db;
+	margin-top: 20px;
+}
+.box7{
+	width: 30px;
+	height: 30px;
+	background-color: #f0e68c;
+	margin: 20px 20px;
+	border: double white;
+}

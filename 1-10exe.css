@@ -40,21 +40,21 @@
 .step-image1{
 	width: 280px;
 	height: 150px;
-	background-image: url(img/flow01.png);
+	background-image: url(1-9img/flow01.png);
 	background-size: cover;
 	background-position: bottom;
 }
 .step-image2{
 	width: 280px;
 	height: 150px;
-	background-image: url(img/flow02.png);
+	background-image: url(1-9img/flow02.png);
 	background-size: cover;
 	background-position: bottom;
 }
 .step-image3{
 	width: 280px;
 	height: 150px;
-	background-image: url(img/flow03.png);
+	background-image: url(1-9img/flow03.png);
 	background-size: cover;
 	background-position: bottom;
 }
